@@ -23,7 +23,7 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">#centralwidget{border-image: url(:/pictures/Genshin.jpg);}</string>
+   <string notr="true">#centralwidget{border-image: url(:/pictures/start.jpg);}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">

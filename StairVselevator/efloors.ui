@@ -14,7 +14,7 @@
    <string>8层运算界面</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">#centralwidget{border-image: url(:/pictures/Genshin.jpg);}</string>
+   <string notr="true">#centralwidget{border-image: url(:/pictures/start.jpg);}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -200,7 +200,7 @@ QPushButton : pressed
            <string> 第1层</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -247,7 +247,7 @@ QPushButton : pressed
            <string> 第8层</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -270,7 +270,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -292,7 +292,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -314,7 +314,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -336,7 +336,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -358,7 +358,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -380,7 +380,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -402,7 +402,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -424,7 +424,7 @@ QPushButton : pressed
            <string notr="true">font: 16pt &quot;Microsoft YaHei UI&quot;;</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
           <property name="minimum">
            <number>-9</number>
@@ -469,7 +469,7 @@ QPushButton : pressed
            <string>总层数</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -495,7 +495,7 @@ QLineEdit:focus {
 }</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -527,7 +527,7 @@ QLineEdit:focus {
            <string>开始层</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -553,7 +553,7 @@ QLineEdit:focus {
 }</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -585,7 +585,7 @@ QLineEdit:focus {
            <string>目的层</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -611,7 +611,7 @@ QLineEdit:focus {
 }</string>
           </property>
           <property name="alignment">
-           <set>Qt::AlignCenter</set>
+           <set>Qt::AlignmentFlag::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -622,10 +622,10 @@ QLineEdit:focus {
     <item row="0" column="1">
      <spacer name="horizontalSpacer">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
       <property name="sizeType">
-       <enum>QSizePolicy::Preferred</enum>
+       <enum>QSizePolicy::Policy::Preferred</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
@@ -638,10 +638,10 @@ QLineEdit:focus {
     <item row="1" column="1">
      <spacer name="horizontalSpacer_2">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
       <property name="sizeType">
-       <enum>QSizePolicy::Preferred</enum>
+       <enum>QSizePolicy::Policy::Preferred</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>

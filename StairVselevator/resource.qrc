@@ -1,6 +1,6 @@
 <RCC>
     <qresource prefix="/pictures">
         <file>jt.png</file>
-        <file>Genshin.jpg</file>
+        <file>start.jpg</file>
     </qresource>
 </RCC>
